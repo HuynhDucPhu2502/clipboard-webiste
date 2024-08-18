@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h3 {
+    @apply text-center font-medium text-5xl mt-12 tracking-wide;
+  }
+  h5 {
+    @apply font-medium text-2xl  tracking-wide;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center px-10;
+}
+
+.section-content {
+  @apply max-w-3xl mx-auto text-center text-xl mt-8 font-light text-gray-400;
+}
+
+.button-container {
+  @apply rounded-full transition-all hover:-translate-y-0.5 hover:opacity-80 hover:shadow-xl;
+}
